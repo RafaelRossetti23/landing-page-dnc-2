@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+
+}
+button{
+    cursor: pointer;
+}
+#header {
+    background-image: url(images/bg.svg);
+ 
+    color: white;
+    height: 560px;
+}
+.logo img{
+    margin: 50px 50px;
+}
+.text {
+    margin-left: 16vh;
+}
+.text h1{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128.5%;
+}
+.text p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.text > *{
+    padding: 17px;
+}
+.ListProducts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 170px;
+    background-color: #EAECE5;
+    
+}
+.ListProducts > div{
+    display: flex;
+}
+.ListProducts img{
+    padding-right: 15px;  
+}
+.ListProducts p{
+    padding: 10px 0;
+    align-self: top;
+    color: #122235;
+    font-size: 20px;
+}
+.VideoSession {
+    padding: 10vh 17vh;
+    display: flex;
+    align-items: center ;
+}
+.VideoSession h1{
+    color: #247BA0;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+}
+.VideoSession p{
+    color: #383838;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.VideoSession iframe{
+   
+    width: 900px;
+    height: 350px;
+    margin-right: 50px;
+   
+}
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #247BA0;
+    color: #EAECE5;
+    padding: 8vh 0;
+    
+}
+.depoimentos ul{
+    list-style-type: none;
+    padding: 5vh 0;
+    
+}
+.depoimentos li{
+    display: inline-block;
+    padding: 0 2vh;
+}
+
+#bruna {
+    display: none;
+}
+.depoimentos:first-child,
+.depoimentos:last-child{
+    border: 1px solid red;
+    padding-bottom: 20px;
+    
+      
+}
+#arrow-left {
+    margin-bottom: 50px;
+    display: none;
+    cursor: pointer
+}
+#arrow-right {
+    margin-bottom: 50px;
+    cursor: pointer
+
+}
+#arrow-right:hover,
+#arrow-left:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+.depoimentos ul li img{
+    box-shadow: 3px 3px 5px #383838;
+    border-radius: 20px;
+}
+.depoimentos ul li:hover {
+    transform:scale(1.1) skew(0.5deg, 0.5deg);
+    transition: 0.8s;
+}
+.depoimentos ul > div{
+    
+    display: flex;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.formulario h1{
+    padding: 25px 0;
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 480px;
+    
+}
+.formulario input{
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    background-color: #EAECE5;
+    margin: 20px;
+}
+.formulario button{
+    padding: 15px;
+    border: 0;
+    width: 350px;
+    margin: 20px auto;
+    border-radius: 5px;
+    background-color: #247BA0;
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.formulario button:hover{
+    transform: translateY(-5px);
+    transition: 0.8s;
+}
