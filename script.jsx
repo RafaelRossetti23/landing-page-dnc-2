@@ -122,14 +122,15 @@ function Form(){
     return (
         <div className="formulario">
             <h1>Comece agora mesmo e dê o próximo passo da sua carreira</h1>
-            <form action="POST">
+            <form method="POST" action="https://api.sheetmonkey.io/form/qvyW9uLaii88FNeNGswCDY">
                 <label for="nome"></label>
-                <input type="text" name="nome" id="nome" placeholder="Nome"/>
+                <input type="text" name="Name" id="nome" placeholder="Nome"/>
                 <label for="email"></label>
-                <input type="email" name="email" id="email" placeholder="E-mail" />
+                <input type="email" name="Email" id="email" placeholder="E-mail" />
                 <label for="telefone"></label>
-                <input type="number" name="telefone" id="telefone" placeholder="Telefone"/>
-                <button>Acesse a ementa grátis</button>
+                <input type="number" name="Telefone" id="telefone" placeholder="Telefone"/>
+                <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+                <button type="submit">Acesse a ementa grátis</button>
             </form>
         </div>
     )
