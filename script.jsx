@@ -124,11 +124,11 @@ function Form(){
             <h1>Comece agora mesmo e dê o próximo passo da sua carreira</h1>
             <form method="POST" action="https://api.sheetmonkey.io/form/qvyW9uLaii88FNeNGswCDY">
                 <label for="nome"></label>
-                <input type="text" name="Name" id="nome" placeholder="Nome"/>
+                <input type="text" name="Name" id="nome" placeholder="Nome" required/>
                 <label for="email"></label>
-                <input type="email" name="Email" id="email" placeholder="E-mail" />
+                <input type="email" name="Email" id="email" placeholder="E-mail" required/>
                 <label for="telefone"></label>
-                <input type="number" name="Telefone" id="telefone" placeholder="Telefone"/>
+                <input type="number" name="Telefone" id="telefone" placeholder="Telefone" required/>
                 <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
                 <button type="submit">Acesse a ementa grátis</button>
             </form>
